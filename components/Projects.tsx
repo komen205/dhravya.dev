@@ -78,7 +78,7 @@ function Projects({
                       }
                       topic={blog.topic}
                       className={classes[blog.topic]}
-                      href={`/blog/${blog.slug}`}
+                      href={`/blog/p/${blog.slug}`}
                     />
                   )
                 })
