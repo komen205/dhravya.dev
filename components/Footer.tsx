@@ -3,11 +3,7 @@ import siteMetadata from '@/data/siteMetadata'
 
 import Link from './helpers/Link'
 
-export default function Footer({
-  bg = 'bg-purplishBackground',
-}: {
-  bg?: string
-}) {
+export default function Footer({ bg = 'bg-darkBackground' }: { bg?: string }) {
   return (
     <footer className={bg}>
       <div className='mt-16 flex flex-col items-center'>

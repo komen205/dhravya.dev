@@ -23,7 +23,7 @@ export default function About({
   const { mdxSource, frontMatter } = authorDetails
 
   return (
-    <div className='bg-purplishBackground dark'>
+    <div className='bg-darkBackground dark'>
       <Navbar />
       <SectionContainer>
         <MDXLayoutRenderer

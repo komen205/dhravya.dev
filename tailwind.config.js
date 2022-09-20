@@ -20,6 +20,7 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      colors: {},
       spacing: {
         '9/16': '56.25%',
       },
@@ -40,6 +41,7 @@ module.exports = {
         gray: colors.neutral, // TODO: Remove ts-ignore after tw types gets updated to v3
 
         purplishBackground: '#380d79',
+        darkBackground: '#171717',
       },
       typography: (theme) => ({
         DEFAULT: {

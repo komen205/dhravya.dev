@@ -58,7 +58,7 @@ export default function Tag({
   // Capitalize first letter and convert space to dash
   const title = tag[0].toUpperCase() + tag.split(' ').join('-').slice(1)
   return (
-    <div className='bg-purplishBackground'>
+    <div className='bg-darkBackground'>
       <TagSEO
         title={`${tag} - ${siteMetadata.title}`}
         description={`${tag} tags - ${siteMetadata.author}`}

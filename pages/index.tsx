@@ -41,12 +41,12 @@ export default function Home({
   }, [])
 
   return (
-    <div className='bg-purplishBackground pb-10'>
+    <div className='bg-darkBackground pb-10'>
       <PageSEO
         title={siteMetadata.title}
         description={siteMetadata.description}
       />
-      <div className='bg-purplishBackground'>
+      <div className='bg-darkBackground'>
         <Hero showElements={isOnTop} />
         <Navbar />
         <About />

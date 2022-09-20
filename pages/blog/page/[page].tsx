@@ -61,7 +61,7 @@ export default function PostPage({
   pagination,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-    <div className='bg-purplishBackground'>
+    <div className='bg-darkBackground'>
       <PageSEO
         title={siteMetadata.title}
         description={siteMetadata.description}

@@ -33,7 +33,7 @@ export default function Blog({
   pagination,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-    <div className='bg-purplishBackground'>
+    <div className='bg-darkBackground'>
       <PageSEO
         title={`Blog - ${siteMetadata.author}`}
         description={siteMetadata.description}

@@ -21,7 +21,7 @@ export default function Tags({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const sortedTags = Object.keys(tags).sort((a, b) => tags[b] - tags[a])
   return (
-    <div className='bg-purplishBackground'>
+    <div className='bg-darkBackground'>
       <PageSEO
         title={`Tags - ${siteMetadata.author}`}
         description='Things I blog about'

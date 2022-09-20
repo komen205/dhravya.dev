@@ -18,7 +18,7 @@ const LayoutWrapper = ({ children }: Props) => {
     <div>
       <div className='flex h-screen flex-col justify-between'>
         <main className='mb-auto'>{children}</main>
-        <Footer bg={isBlogPage ? 'bg-[#171717]' : 'bg-purplishBackground'} />
+        <Footer bg={isBlogPage ? 'bg-[#171717]' : 'bg-darkBackground'} />
       </div>
     </div>
   )
