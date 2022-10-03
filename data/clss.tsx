@@ -1,14 +1,14 @@
 export const classes = {
-  programming: 'bg-blue-300',
-  experience: 'bg-yellow-300',
-  project: 'bg-green-300',
+  programming: 'bg-blue-500',
+  experience: 'bg-blue-500',
+  project: 'bg-blue-500',
 }
 
 export const icons = {
   project: (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='w-12 h-12'
+      className='h-12 w-12'
       fill='none'
       viewBox='0 0 24 24'
       stroke='currentColor'
@@ -24,7 +24,7 @@ export const icons = {
   experience: (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='w-12 h-12'
+      className='h-12 w-12'
       fill='none'
       viewBox='0 0 24 24'
       stroke='currentColor'
@@ -40,7 +40,7 @@ export const icons = {
   programming: (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='w-12 h-12'
+      className='h-12 w-12'
       fill='none'
       viewBox='0 0 24 24'
       stroke='currentColor'
