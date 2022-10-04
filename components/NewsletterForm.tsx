@@ -43,12 +43,12 @@ const NewsletterForm = ({
   }
 
   return (
-    <div className='rounded-lg w-full flex flex-col md:flex-row items-center justify-between bg-slate-800 p-3 md:p-5 py-10 mx-5 md:mx-10'>
+    <div className='mx-5 flex w-full flex-col items-center justify-between rounded-lg bg-slate-800 p-3 py-10 md:mx-10 md:flex-row md:p-5'>
       <div>
-        <h3 className='pb-1 text-xl md:text-3xl font-mukta font-semibold text-gray-100'>
+        <h3 className='pb-1 font-mukta text-xl font-semibold text-gray-100 md:text-3xl'>
           {title}
         </h3>
-        <div className='pb-1 text-gray-200 text-sm max-w-fit'>
+        <div className='max-w-fit pb-1 text-sm text-gray-200'>
           {description}
         </div>
       </div>
@@ -61,7 +61,7 @@ const NewsletterForm = ({
             </label>
             <input
               autoComplete='email'
-              className='w-52 md:w-72 rounded-md px-4 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600 dark:bg-black'
+              className='w-52 rounded-md px-4 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600 dark:bg-black md:w-72'
               id='email-input'
               name='email'
               placeholder={
@@ -75,10 +75,10 @@ const NewsletterForm = ({
           </div>
           <div className='mt-2 flex w-full rounded-md shadow-sm sm:mt-0 sm:ml-3'>
             <button
-              className={`w-52 md:w-72 rounded-md bg-purple-600 py-2 px-4 font-medium text-white sm:py-0 ${
+              className={`w-52 rounded-md bg-purple-600 py-2 px-4 font-medium text-white sm:py-0 md:w-72 ${
                 subscribed
                   ? 'cursor-default'
-                  : 'hover:bg-primary-700 dark:hover:bg-primary-400'
+                  : 'transition-all duration-500 hover:bg-primary-700 dark:hover:bg-primary-400'
               } focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black`}
               type='submit'
               disabled={subscribed}
@@ -88,7 +88,7 @@ const NewsletterForm = ({
           </div>
         </div>
 
-        <div className='mt-2 text-slate-500 text-xs'>
+        <div className='mt-2 text-xs text-slate-500'>
           I'll never spam you and you can unsubscribe any time.
         </div>
       </form>
