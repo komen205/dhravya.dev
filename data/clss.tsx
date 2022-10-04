@@ -1,6 +1,6 @@
 export const classes = {
-  programming: 'bg-blue-500',
-  experience: 'bg-blue-500',
+  programming: 'bg-blue-600',
+  experience: 'bg-blue-600',
   project: 'bg-blue-500',
 }
 

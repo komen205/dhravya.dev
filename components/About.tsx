@@ -8,7 +8,7 @@ import CustomLink from './helpers/Link'
 function About() {
   return (
     <>
-      <div className='mx-3 flex justify-between rounded-xl bg-blue-600 p-3 py-10 md:mx-10'>
+      <div className='mx-3 flex justify-between rounded-xl bg-blue-500 p-3 py-10 md:mx-10'>
         <div className='w-full'>
           {/* <div className='text-3xl md:text-5xl font-poppins font-semibold text-[#380d79] m-6'>
             About me
