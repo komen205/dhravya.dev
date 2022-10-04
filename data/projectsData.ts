@@ -8,7 +8,7 @@ const projectsData = [
     href: '/blog/p/lmfao.tech',
   },
   {
-    icon: 'https://cdn.discordapp.com/attachments/944639976228925490/1010227076495843338/image_2022-08-19_220831760-removebg-preview.png',
+    icon: 'https://i.imgur.com/ru9jkSg.png',
     iconType: 'image',
     title: 'Cake Cutter',
     description: 'Project boostrapping and setup tool',
