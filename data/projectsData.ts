@@ -3,7 +3,7 @@ const projectsData = [
     icon: 'https://lmfao.tech/logo-white.png',
     iconType: 'image',
     title: 'LMFAO.tech',
-    className: 'bg-[#1a3b75] border-slate-400 text-white',
+    className: 'bg-[#1a3b75] border-slate-400 h-60 text-white',
     description: 'One place for all your meme needs.',
     href: '/blog/p/lmfao.tech',
   },
@@ -12,7 +12,7 @@ const projectsData = [
     iconType: 'image',
     title: 'Cake Cutter',
     description: 'Project boostrapping and setup tool',
-    className: 'bg-[#1a3b75] border-slate-400 text-white',
+    className: 'bg-[#1a3b75] border-slate-400 h-60  text-white',
     href: '/blog/p/cakecutter2',
   },
   {
@@ -21,7 +21,7 @@ const projectsData = [
     title: 'Tweets.Beauty',
     description:
       'Twitter bot and website to create stunningly beautiful images of tweets',
-    className: 'bg-[#1a3b75] border-slate-400 text-white',
+    className: 'bg-[#1a3b75] border-slate-400 h-60  text-white',
     href: '/blog/p/tweets.beauty',
   },
 ]

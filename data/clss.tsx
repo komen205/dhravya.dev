@@ -1,7 +1,7 @@
 export const classes = {
-  programming: 'bg-blue-600',
-  experience: 'bg-blue-600',
-  project: 'bg-blue-500',
+  programming: 'bg-blue-600 h-64',
+  experience: 'bg-blue-600 h-64',
+  project: 'bg-blue-500 h-64',
 }
 
 export const icons = {

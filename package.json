@@ -72,7 +72,7 @@
     "@types/inquirer": "^8.2.0",
     "@types/js-yaml": "^4.0.5",
     "@types/prettier": "^2.4.4",
-    "@types/react": "^18.0.1",
+    "@types/react": "18.0.1",
     "@typescript-eslint/parser": "^5.15.0",
     "@umijs/fabric": "^2.10.2",
     "chalk": "^5.0.1",
