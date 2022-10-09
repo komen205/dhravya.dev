@@ -40,7 +40,7 @@ function Blogs({
       : filteredBlogPosts
 
   return (
-    <div className={`px-5 pt-10 md:px-10 ${fullscreen && 'min-h-screen'}`}>
+    <div className={`md:mx-10 ${fullscreen && 'min-h-screen'}`}>
       <div className='flex items-center justify-center mt-6 text-3xl font-semibold text-purple-300 md:text-5xl font-poppins'>
         {title ? title : !fullscreen ? 'Latest Blogs' : 'Blogs'}
       </div>
@@ -73,7 +73,7 @@ function Blogs({
         )}
       </div>
 
-      <div className='md:flex-wrap md:flex justify-evenly'>
+      <div className='md:flex-wrap md:flex justify-between'>
         {!filteredBlogPosts.length && 'No posts found.'}
         {displayPosts
           .map((blog, index) => {

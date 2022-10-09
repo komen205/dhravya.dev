@@ -133,7 +133,7 @@ export default function PostLayout({
                 classes[topic ? topic : 'programming']
               }`}
             >
-              <div className='mt-10 md:mt-0'>
+              <div className='md:mt-0'>
                 <div className='inline-flex items-center h-min gap-2'>
                   <span className='rounded-full bg-blue-500 px-3 text-white text-sm py-1'>
                     {topic?.toUpperCase()}
@@ -152,7 +152,7 @@ export default function PostLayout({
                   <div className='md:w-1/2 text-xl'>{summary}</div>
                   <div className='w-fit '>
                     {/* Divider */}
-                    <div className='w-full h-px bg-gray-200 mt-10'> </div>
+                    <div className='w-full h-px bg-gray-200'> </div>
                     <Author authorDetails={authorDetails} />
                   </div>
                 </div>

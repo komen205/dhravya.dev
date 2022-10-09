@@ -11,7 +11,7 @@ import MobileNav from './helpers/MobileNav'
 
 function Navbar() {
   return (
-    <div className='sticky top-0 p-2 flex items-center justify-between bg-inherit z-50 transition-all duration-150 ease-in-out'>
+    <div className='md:mx-10 sticky top-0 p-2 flex items-center justify-between bg-inherit z-50 transition-all duration-150 ease-in-out'>
       <Link href='/'>
         <a className='flex mx-3 md:mx-6 items-center'>
           <Image

@@ -28,7 +28,7 @@ function PElement({
     <Link passHref href={href?.startsWith('/') ? href : `/`}>
       <a>
         <div
-          className={`rounded-xl md:mx-4 flex flex-col mt-10 border-4 w-full md:w-80 xl:w-96  ${className} group hover:scale-105 ease-out duration-150`}
+          className={`rounded-xl flex flex-col mt-10 border-4 w-full md:w-80 xl:w-96  ${className} group hover:scale-105 ease-out duration-150`}
         >
           <div
             className={`flex items-center m-3 text-[#380d79] group-hover:text-white`}

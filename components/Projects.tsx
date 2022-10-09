@@ -22,11 +22,12 @@ function Projects({
   displayPosts?: PostFrontMatter[]
 }) {
   return (
-    <div className={`px-5 pt-10 md:px-10 ${fullscreen && 'min-h-screen'}`}>
+    <div className={`
+    md:mx-10 ${fullscreen && 'min-h-screen'}`}>
       <div className='flex items-center justify-center mt-6 text-3xl font-semibold text-purple-300 md:text-5xl font-poppins'>
         Projects
       </div>
-      <div className='md:flex-wrap md:flex justify-evenly'>
+      <div className='md:flex-wrap md:flex justify-between'>
         {projectsData
           .map((project, index) => {
             if (index >= total) return null
@@ -63,7 +64,7 @@ function Projects({
             <div className='flex items-center justify-center mt-6 text-3xl font-semibold text-purple-300 md:text-5xl font-poppins'>
               Smaller projects
             </div>
-            <div className='md:flex-wrap md:flex justify-evenly'>
+            <div className='md:flex-wrap md:flex justify-between'>
               {displayPosts
                 .map((blog, index) => {
                   if (index >= total) return null
